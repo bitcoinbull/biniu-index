@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dip"
+    android:paddingTop="3dip">
+
+    <TableRow
+        android:paddingLeft="5dip"
+        android:background="#eeeeee"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material">
+        <TextView
+            android:id="@+id/summary"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dip"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#dd6600"></TextView>
+    </TableRow>
+</TableLayout>

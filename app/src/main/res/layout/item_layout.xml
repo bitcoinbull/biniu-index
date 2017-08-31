@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dip"
+    android:paddingTop="3dip">
+
+    <TableRow
+        android:paddingLeft="5dip"
+        android:background="#eeeeee"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material">
+        <!--        <ImageView android:src="@drawable/icon"
+                    android:id="@+id/item_image" android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dip" android:paddingTop="5dip"
+                    android:paddingBottom="5dip" android:layout_gravity="center"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </ImageView>
+         -->
+        <TableLayout android:paddingLeft="8dip">
+
+            <TableRow>
+
+                <TextView
+                    android:text="指标类型: "
+                    android:paddingTop="8dip"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></TextView>
+
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#dd6600"></TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="背离时间: "
+                    android:paddingTop="8dip"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></TextView>
+
+                <TextView
+                    android:id="@+id/div_time"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#dd6600"></TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="可信程度: "
+                    android:paddingTop="8dip"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"></TextView>
+
+                <TextView
+                    android:id="@+id/reliability"
+                    android:paddingBottom="8dip"
+                    android:textSize="14dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#dd6600"></TextView>
+            </TableRow>
+
+        </TableLayout>
+    </TableRow>
+</TableLayout>
